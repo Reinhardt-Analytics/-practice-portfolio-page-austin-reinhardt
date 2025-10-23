@@ -54,3 +54,10 @@ return (
    <button className="btn" type="submit" disabled={isIncomplete}
     
    </form>
+
+   <div className="preview">
+     <h2>Preview</h2>
+     <p>Name: {formData.name || ""}</p>
+     <p>Email: {formData.email || ""}</p>
+     <p>Feedback: {formData.feedback || ""}</p>
+   </div>
